@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4f6f8;
+  color: #2d3748;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: #2b6cb0;
+}
+.container {
+  max-width: 1080px;
+  margin: auto;
+  padding: 2rem;
+}
+nav {
+  background: #1a202c;
+  color: white;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #e2e8f0;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #90cdf4;
+}
+.hero {
+  background: linear-gradient(120deg, #63b3ed, #4299e1);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.hero-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+.hero-title span {
+  background: #ffffffb7;
+  color: #2d3748;
+  padding: 0 0.6rem;
+  border-radius: 6px;
+}
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.powerbi img.dashboard {
+  margin-top: 1.2rem;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+.projects h2 {
+  margin-top: 3rem;
+  font-size: 1.8rem;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+.card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.card p {
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.1rem;
+  background: #2b6cb0;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #2c5282;
+}
+footer {
+  background: #edf2f7;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 4rem;
+  font-size: 0.95rem;
+  color: #4a5568;
+}
